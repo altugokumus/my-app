@@ -1,0 +1,49 @@
+#container {
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: solid 1px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list>li {
+    background-color: bisque;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.btn-div {
+   display: flex;
+   padding: 5px;
+   justify-content: right;
+}
+
+.btn {
+    color: blue;
+    border-radius: 5px;
+    border-color: rgb(226, 208, 184);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: bisque;
+}
